@@ -5,14 +5,19 @@
 ## Formula
 
 - **Basic Percentage:**
+
   $$
   \text{Percentage} = \left( \frac{\text{Part}}{\text{Total}} \right) \times 100
   $$
+
 - **Percentage Change:**
+
   $$
   \% \text{ Change} = \left( \frac{\text{Final Value} - \text{Initial Value}}{\text{Initial Value}} \right) \times 100
   $$
+
 - **Product Stability (Price vs Consumption):** If price increases by $P\%$, consumption must decrease by:
+
   $$
   \left( \frac{P}{100 + P} \right) \times 100\%
   $$
