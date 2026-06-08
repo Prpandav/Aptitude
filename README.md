@@ -5,6 +5,7 @@ Welcome to the Aptitude Preparation repository! This project contains study mate
 ## Table of Contents
 
 - [Percentages - Fundamentals](./percentages.md)
+- [Ratio & Proportion - Fundamentals](./Ratio%20&%20Proportion.md)
 
 ## How to Use This Repository
 
