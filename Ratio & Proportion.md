@@ -1,67 +1,34 @@
-# Topic Name: Ratio & Proportion - Fundamentals
+# Ratio & Proportion - Fundamentals
 
-## Formula
+## 1. Formulas
 
 - **Ratio Concept:** If $A:B$, values are $Ax$ and $Bx$.
 - **Proportion:** $a : b :: c : d \implies ad = bc$
 - **Mean Proportional:** Mean proportional between $a$ and $b$ is $\sqrt{ab}$.
 - **Third Proportional:** Third proportional to $a$ and $b$ is $\frac{b^2}{a}$.
 
-## Key Concepts
+## 2. Key Concepts
 
+**Simple Explanation:** A Ratio is a way of comparing two or more quantities of the same kind by division. If you have 3 apples and 4 oranges, the ratio of apples to oranges is $3 : 4$.
+**Real-World Intuition:** Think of a recipe or a color mix. If a specific shade of green requires $2$ cups of blue paint and $3$ cups of yellow paint, your ratio is $2:3$. To paint an entire room, you might use $20$ cups of blue and $30$ cups of yellow. The actual quantities changed, but the relationship ($2:3$) stayed exactly the same.
 - **Structural Bridging:** To merge $A:B$ and $B:C$, scale both equations until the common variable ($B$) holds an identical value via LCM.
 - **Coin Bag Matrix:** Number Ratio $\times$ Unit Coin Value = Value Ratio. Total value matches the absolute value sum.
 
-## Shortcuts
+## 3. Shortcuts
 
+**The Scaler ($x$) Hunt:** Whenever you see a ratio like $3:5$ and a total sum of $160$: Add parts ($3+5=8$), divide total ($\frac{160}{8}=20$), and multiply back ($3 \times 20 = 60$).
+**The "Equal Option Coefficient" Check:** If asked to split ₹1650 into $4:7$, the larger share must be a multiple of 7, and the total a multiple of 11. Eliminate options cleanly using divisibility in 5 seconds.
 - **Direct Option Elimination:** The calculated shares must be perfectly divisible by their respective components in the simplified ratio.
 
-## Mistakes
+## 4. Common Mistakes
 
 - Combining ratios with different underlying variables without ensuring the common connector matches.
 - Forgetting that the structural variable ($x$) disappears when ratios are divided, but is mandatory when absolute values are added or subtracted.
+**The Inverted Ratio Trap:** Always check which order the question is asking for at the very end. Option templates always include the reverse order to catch hasty students.
+**Adding Units Directly:** Adding ratios of different items directly without converting to a common base metric like Rupees.
+**Shortcut Dangers:** When using cross-multiplication shortcuts for income/expenditure, ensure savings values are identical. Forgetting to track negative signs during subtraction will ruin the calculation.
 
-
-## 1. Concept Explanation
-
-### Simple Explanation
-
-A **Ratio** is a way of comparing two or more quantities of the same kind by division. It tells you how many times one number contains another.
-
-* If you have 3 apples and 4 oranges, the ratio of apples to oranges is **$3 : 4$**.
-* A ratio does **not** give you the actual values; it only gives you the *relative relationship* between them.
-
-A **Proportion** is simply an equation which states that two ratios are equal. If **$a : b = c : d$**, then **$a, b, c,$** and **$d$** are said to be in proportion.
-
-### The Core Formula
-
-For a ratio **$a : b$**:
-
-$$
-\text{Actual values can be represented as } a\cdot x \text{ and } b\cdot x, \text{ where } x \text{ is the highest common factor (HCF).}
-$$
-
-For a proportion **$a : b :: c : d$** (which means **$\frac{a}{b} = \frac{c}{d}$**):
-
-$$
-a \times d = b \times c
-$$
-
-*(Product of Extremes = Product of Means)*
-
-### Real-World Intuition
-
-Think of a recipe or a color mix. If a specific shade of green requires **$2$** cups of blue paint and **$3$** cups of yellow paint, your ratio is **$2:3$**. If you want to paint an entire room, you don't just use **$5$** cups total; you scale it up. You might use **$20$** cups of blue and **$30$** cups of yellow. The actual quantities changed, but the *relationship* (**$2:3$**) stayed exactly the same.
-
-### Mental Math Trick: The Scaler (**$x$**) Hunt
-
-Whenever you see a ratio like **$3:5$** and a total sum of **$160$**, don't use long algebraic equations.
-
-* Add the ratio parts: **$3 + 5 = 8 \text{ parts}$**.
-* Divide the total by total parts to find the value of **$1 \text{ part}$**: **$\frac{160}{8} = 20$**.
-* Multiply back: **$3 \times 20 = 60$** and **$5 \times 20 = 100$**.
-
-## 2. Solved Examples
+## 5. Solved Examples
 
 ### Easy
 
@@ -115,7 +82,7 @@ Whenever you see a ratio like **$3:5$** and a total sum of **$160$**, don't use 
   $$
 * **Step 5:** Find the number of 50p coins (**$9x$**): **$9 \times 64 = \mathbf{576 \text{ coins}}$**.
 
-## 3. Practice Set
+## 6. Practice Set
 
 ### Beginner Questions (10)
 
@@ -143,26 +110,7 @@ Whenever you see a ratio like **$3:5$** and a total sum of **$160$**, don't use 
 16. The total number of students in a college is 2200. The ratio of the number of boys to girls is **$7 : 4$**. After a few days, 40 girls join the college and a few boys leave. As a result, the new ratio of boys to girls becomes **$5 : 3$**. Find the number of boys who left.
 17. The cost of a diamond varies directly as the square of its weight. A diamond weighing 10 grams costs ₹10,000. It breaks into two pieces whose weights are in the ratio **$2 : 3$**. Find the loss incurred due to the breakage.
 
-## 4. Mistake Analysis
-
-### Common Traps
-
-* **The Inverted Ratio Trap:** Always check which order the question is asking for at the very end. If you calculate **$A:B:C = 8:12:15$**, check if the question paper asks for **$C:B:A$**. Option templates *always* include the reverse order to catch hasty students.
-* **Adding Units Directly:** Adding ratios of different items directly (e.g., adding a ratio of values to a ratio of quantities) without converting to a common base metric like Rupees.
-
-### Shortcut Dangers
-
-* When using cross-multiplication shortcuts for income/expenditure problems, make sure the savings values are either identical or carefully placed. Forgetting to track negative signs during subtraction will ruin the calculation.
-
-## 5. Speed Building
-
-### The "Equal Option Coefficient" Check
-
-If you are asked to split a total value of ₹1650 into a ratio of **$4:7$**, the larger share must be a multiple of 7, and the total must be a multiple of **$11 (4+7)$**. Before writing a single line of calculation, check the options to see which ones are cleanly divisible by 7 and 11. You can often eliminate 2 to 3 options within 5 seconds.
-
----
-
-# Answers & Hints
+## 7. Answers & Hints
 
 **Beginner:**
 1. **3 : 5** (Divide both by HCF 15)

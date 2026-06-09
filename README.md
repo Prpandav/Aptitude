@@ -5,19 +5,20 @@ Welcome to the Aptitude Preparation repository! This project contains study mate
 ## Table of Contents
 
 - [Percentages - Fundamentals](./percentages.md)
-- [Ratio & Proportion - Fundamentals](./Ratio%20&%20Proportion.md)
+- [Ratio &amp; Proportion - Fundamentals](./Ratio%20&%20Proportion.md)
 - [Averages - Fundamentals](./Average.md)
 
 ## How to Use This Repository
 
 Each topic is covered in its own Markdown file. Inside, you will generally find:
 
-1. **Formulas:** Core mathematical formulas needed for the topic.
-2. **Key Concepts:** Basic intuition and rules.
-3. **Shortcuts:** Tips and tricks to calculate answers faster (e.g., fractional equivalents).
-4. **Common Mistakes:** Pitfalls to avoid during exams.
+1. **Formulas:** Core mathematical formulas needed.
+2. **Key Concepts:** Basic intuition, rules, and real-world analogies.
+3. **Shortcuts:** Mental math tricks and speed-building techniques.
+4. **Common Mistakes:** Pitfalls, traps, and calculation errors to avoid.
 5. **Solved Examples:** Step-by-step solutions categorized by difficulty.
-6. **Practice Set:** A set of questions for you to test your knowledge.
+6. **Practice Set:** A categorized set of questions for you to test your knowledge.
+7. **Answers & Hints:** Quick keys to verify your practice work.
 
 Grab a notebook, read through the concepts, and try to solve the practice problems before checking the solutions!
 

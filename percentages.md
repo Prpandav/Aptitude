@@ -22,13 +22,13 @@ $$
 \text{Decrease Percentage} = \left( \frac{P}{100 + P} \right) \times 100
 $$
 
-## Key Concepts
+## 2. Key Concepts
 
 - **Base Identification:** The denominator is always the baseline or original value being compared against (the value following the word "than").
 - **Fractional Scaling:** Percentages are fractions with a fixed denominator of 100.
 - **Successive Changes:** Sequential percentage adjustments cannot be directly added or subtracted. They follow a compounding effect: Net Change = $A + B + \frac{AB}{100}$.
 
-## Shortcuts
+## 3. Shortcuts
 
 - **The Anchor Method:**
   - Move decimal 1 spot left for $10\%$
@@ -39,42 +39,20 @@ $$
   - $33.33\% = \frac{1}{3}$
   - $9.09\% = \frac{1}{11}$
 
-## Mistakes
+## 4. Common Mistakes
 
 - Assuming a successive increase and decrease of the same percentage cancels out (it results in a net decrease).
 - Picking the wrong baseline value for standard comparison questions.
 
-## Important Questions
+## 5. Solved Examples
 
-1. **The Compounding Problem:** If a value drops $20\%$, then drops another $10\%$, what is the total change?
-   - *Solution:* Let base = 100. After -20% $\rightarrow$ 80. After -10% of 80 (which is 8) $\rightarrow$ 72. Total drop = $28\%$.
-2. **The Constant Commodity Cost:** Price of sugar up by $25\%$. Keep expense same.
-   - *Solution:* $\frac{25}{100+25} \times 100 = \frac{25}{125} \times 100 = 20\%$ reduction in consumption.
+### The Compounding Problem
+If a value drops $20\%$, then drops another $10\%$, what is the total change?
+*Solution:* Let base = 100. After -20% $\rightarrow$ 80. After -10% of 80 (which is 8) $\rightarrow$ 72. Total drop = $28\%$.
 
-# Percentage Problems – Solved Examples & Practice Set
-
-## Overview
-
-Percentages are one of the most important concepts in aptitude tests, academics, placements, and real-world calculations. This guide covers:
-
-* Basic percentage calculations
-* Percentage increase/decrease
-* Reverse percentage concepts
-* Profit-loss style applications
-* Placement-level aptitude questions
-
----
-
-# 1. Core Formula
-
-The most important percentage formula is:
-
-$$
-\text{Percentage} = \left(\frac{\text{Part}}{\text{Total}}\right) \times 100
-$$
----
-
-# 2. Solved Examples
+### The Constant Commodity Cost
+Price of sugar up by $25\%$. Keep expense same.
+*Solution:* $\frac{25}{100+25} \times 100 = \frac{25}{125} \times 100 = 20\%$ reduction in consumption.
 
 ## Easy Level
 
@@ -174,15 +152,11 @@ $$\text{Original Price} = \frac{24 \times 100}{80} = 30$$
 
 **₹30 per kg**
 
----
-
-# 3. Practice Set
+## 6. Practice Set
 
 Grab a notebook and try solving these systematically before checking answers.
 
----
-
-# Beginner Questions (10)
+### Beginner Questions (10)
 
 1. Convert $\frac{7}{8}$ into a percentage.
 
@@ -204,9 +178,7 @@ Grab a notebook and try solving these systematically before checking answers.
 
 10. A developer's daily coding output increased by 10% on Tuesday and decreased by 10% on Wednesday. What is the net percentage change?
 
----
-
-# Intermediate Questions (5)
+### Intermediate Questions (5)
 
 1. If A's income is 20% less than B's income, by how much percent is B's income more than A's income?
 
@@ -218,17 +190,13 @@ Grab a notebook and try solving these systematically before checking answers.
 
 5. The price of petrol increased by 25%. By what percentage must a driver reduce consumption so that total expenditure remains unchanged?
 
----
-
-# Challenge Questions (2)
+### Challenge Questions (2)
 
 1. In an election between two candidates: 10% of voters did not vote 10% of votes cast were invalid The winning candidate obtained 54% of valid votes Winning margin = 1620 votes Find the total number of voters enrolled.
 
 2. Fresh fruit contains $68\%$ water and dry fruit contains $20\%$ water. How much dry fruit can be obtained from $100 \text{ kg}$ of fresh fruits?
 
----
-
-# Answers & Hints
+## 7. Answers & Hints
 
 **Beginner:**
 1. **87.5%** ($\frac{7}{8} \times 100$)

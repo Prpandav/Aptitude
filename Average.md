@@ -1,65 +1,48 @@
-# Topic Name: Averages - Fundamentals
+# Averages - Fundamentals
 
-## Formula
+## 1. Formulas
 
-- **Arithmetic Mean:**
-  $$
-  \text{Average} = \frac{\text{Sum of Observations}}{\text{Total Count}}
-  $$
-- **Missing/Replaced Value:**
-  $$
-  \text{New Value} = \text{Old Value} + (\text{Total Count} \times \text{Change in Average})
-  $$
-- **Average of Consecutive Arithmetic Progression (AP):**
-  $$
-  \text{Average} = \frac{\text{First Term} + \text{Last Term}}{2}
-  $$
+**Arithmetic Mean:**
 
-## Key Concepts
+$$
+\text{Average} = \frac{\text{Sum of Observations}}{\text{Total Count}}
+$$
 
+**Missing/Replaced Value:**
+
+$$
+\text{New Value} = \text{Old Value} + (\text{Total Count} \times \text{Change in Average})
+$$
+
+**Average of Consecutive Arithmetic Progression (AP):**
+
+$$
+\text{Average} = \frac{\text{First Term} + \text{Last Term}}{2}
+$$
+
+## 2. Key Concepts
+
+**Simple Explanation:** An Average (specifically the arithmetic mean) is the value that represents a set of numbers as if they were all equalized. Imagine you have 3 blocks of different heights. If you melt them down and recreate 3 blocks of identical height using the same amount of material, that uniform height is the average.
+**Real-World Intuition:** Think of a group of friends ordering food. Some order expensive dishes, others order small sides, but at the end, they decide to "split the bill evenly." The amount each person pays is the average cost of the meal. It smooths out individual variations to find a central baseline.
 - **The Central Baseline:** An average acts as the mathematical center of gravity for a data array.
 - **The Displacement Impact:** Adding or removing an outlier shifts the total sum by an amount distributed completely evenly across the entire group count.
 - **Uniform Operations:** If every single element in a dataset is increased, decreased, multiplied, or divided by a constant $K$, the net average changes by that exact same constant $K$.
 
-## Shortcuts
+## 3. Shortcuts
 
+**Concept of Balanced Deviation (Net Zero):** For any group of numbers, the sum of deviations below the average must perfectly equal the sum of deviations above the average. If an exam score average for 5 students is 70, and four students scored -5, -3, +6, and +4 relative to 70, the net deviation so far is $+2$. The fifth student must be $-2$ relative to the average ($70 - 2 = 68$) to keep the system balanced. You don't need to add up the absolute scores to find the missing variable.
 - **Assumed Mean Method:** Pick a round benchmark value, total up individual positive/negative offsets, divide the offset sum by total count, and append the result to the benchmark.
 - **Consecutive Arrays:** For any odd number of elements in a perfect uniform progression (like consecutive odd/even numbers), the exact middle term *is* the average.
 
-## Mistakes
+## 4. Common Mistakes
 
 - Blindly calculating the average of averages without considering if the underlying group weights or sample sizes are identical.
 - Forgetting to adjust the total count denominator when an element is added or removed from the system.
+**The Direct Average Trap:** If a car travels from point A to B at $40 \text{ km/h}$ and returns at $60 \text{ km/h}$, the average speed is not $\frac{40+60}{2} = 50 \text{ km/h}$. Because the time taken for both journeys is different, this requires a harmonic mean approach.
+**The "Consecutive" Miscount:** When dealing with consecutive even or odd numbers, students often forget that the gap between consecutive terms is $2$, not $1$.
+**Shortcut Dangers:** When using the substitution/replacement shortcut, make sure you note whether the net average increased or decreased. A common sign error will make you add weight instead of subtracting it.
 
-## 1. Concept Explanation
-
-### Simple Explanation
-
-An **Average** (specifically the arithmetic mean) is the value that represents a set of numbers as if they were all equalized. Imagine you have 3 blocks of different heights. If you melt them down and recreate 3 blocks of identical height using the same amount of material, that uniform height is the average.
-
-### Real-World Intuition
-
-Think of a group of friends ordering food. Some order expensive dishes, others order small sides, but at the end, they decide to "split the bill evenly." The amount each person pays is the **average cost** of the meal. It smooths out individual variations to find a central baseline.
-
-### Mental Math Trick: The Deviation (Assumed Mean) Method
-
-Instead of adding massive numbers together to find an average, guess a reasonable average first (called an assumed mean), find how much each number deviates from it, average the deviations, and add it back.
-
- **Example:** Find the average of **$88, 92, 85, 94,$** and **$91$**.
-
- * Step 1: Assume an average close to the numbers. Let's pick  **$90$** .
- * Step 2: Find the deviation of each number from 90:
-
-   $$
-   (88-90) + (92-90) + (85-90) + (94-90) + (91-90)
-   $$
-
-   $$
-   = -2 + 2 - 5 + 4 + 1 = \mathbf{0}
-   $$
- * Step 3: Since the net deviation is **$0$**, your assumed average is the exact average:  **$90$** .
-
-## 2. Solved Examples
+## 5. Solved Examples
 
 ### Easy
 
@@ -89,7 +72,7 @@ Instead of adding massive numbers together to find an average, guess a reasonabl
 * **Step 4:** Find the total income for the year (Total Expenditure + Total Savings): **$62800 + 2300 = ₹65,100$**.
 * **Step 5:** Calculate the average monthly income over the 12 months: **$\frac{65100}{12} = \mathbf{₹5425}$**.
 
-## 3. Practice Set
+## 6. Practice Set
 
 ### Beginner Questions (10)
 
@@ -117,48 +100,27 @@ Instead of adding massive numbers together to find an average, guess a reasonabl
 16. In an IT team of 20 developers, the average salary is ₹60,000 per month. The highest-paid Senior Architect and the lowest-paid Intern are excluded from a data audit. The average salary of the remaining 18 developers drops to ₹58,500. If the Senior Architect earns ₹1,50,000 per month, find the monthly salary of the intern.
 17. The average of 50 numbers is 38. If two numbers, namely 45 and 55, are discarded, find the average of the remaining numbers (correct to two decimal places).
 
-## 4. Mistake Analysis
-
-### Common Traps
-
-* **The Direct Average Trap:** If a car travels from point A to B at **$40 \text{ km/h}$** and returns at **$60 \text{ km/h}$**, the average speed is **not** **$\frac{40+60}{2} = 50 \text{ km/h}$**. Because the time taken for both journeys is different, this requires a harmonic mean approach (which we will dive deeper into during Phase 2).
-* **The "Consecutive" Miscount:** When dealing with consecutive even or odd numbers, students often forget that the gap between consecutive terms is **$2$**, not **$1$**.
-
-### Shortcut Dangers
-
-* When using the substitution/replacement shortcut, make sure you note whether the net average *increased* or  *decreased* . A common sign error will make you add weight instead of subtracting it.
-
-## 5. Speed Building
-
-### Concept of Balanced Deviation (Net Zero)
-
-For any group of numbers, the sum of deviations below the average must perfectly equal the sum of deviations above the average.
-
-If an exam score average for 5 students is 70, and four students scored -5, -3, +6, and +4 relative to 70, the net deviation so far is **$+2$**. The fifth student **must** be **$-2$** relative to the average (**$70 - 2 = 68$**) to keep the system balanced. You don't need to add up the absolute scores to find the missing variable.
-
----
-
-# Answers & Hints
+## 7. Answers & Hints
 
 **Beginner:**
 1. **5.5** ($\frac{n+1}{2} \implies \frac{10+1}{2} = 5.5$)
 2. **80** ($\frac{78 + 85 + 92 + 65}{4} = \frac{320}{4}$)
 3. **21** (Average of odd AP is the middle term. Terms: 21, 23, [25], 27, 29)
 4. **36** (If each number is multiplied by $K$, new avg is multiplied by $K$. $12 \times 3$)
-5. **₹14,500** ($Total_{6} = 72,000$. $Total_{5} = 57,500$. Difference = $14,500$)
+5. **₹14,500** ($\text{Total}_{6} = 72,000$. $\text{Total}_{5} = 57,500$. Difference = $14,500$)
 6. **15** (Primes: 11, 13, 17, 19. $\frac{60}{4} = 15$)
-7. **37 years** ($Total_{4} = 48$. $Total_{5} = 5 \times 17 = 85$. $85 - 48 = 37$)
+7. **37 years** ($\text{Total}_{4} = 48$. $\text{Total}_{5} = 5 \times 17 = 85$. $85 - 48 = 37$)
 8. **150** ($\frac{1050}{7}$)
 9. **45** ($A+B+C = 45 \times 3 = 135$. $C = 135 - 90 = 45$)
 10. **12** (Multiples: 4, 8, 12, 16, 20. Middle term is the average)
 
 **Intermediate:**
-11. **$33^\circ\text{C}$** ($M+T+W = 114$. $T+W+Th = 120$. $Th = 39 \implies T+W = 81$. $M = 114 - 81 = 33$)
-12. **₹292.5** (Let avg be $A$. Total $= 9A$. $8(30) + (A + 20) = 9A \implies 8A = 260 \implies A = 32.5$. Total $= 9 \times 32.5$)
+11. **$33^\circ\text{C}$** ($M+T+W = 114$. $T+W+\text{Th} = 120$. $\text{Th} = 39 \implies T+W = 81$. $M = 114 - 81 = 33$)
+12. **₹292.5** (Let avg be $A$. $\text{Total} = 9A$. $8(30) + (A + 20) = 9A \implies 8A = 260 \implies A = 32.5$. $\text{Total} = 9 \times 32.5$)
 13. **68 kg** (Increase = $8 \times 1.5 = 12 \text{ kg}$. New man = $56 + 12 = 68$)
 14. **39 runs** ($16x + 87 = 17(x+3) \implies x=36$. New avg = $36+3=39$)
 15. **4 years** ($H+W$ present = $2 \times (23+5) = 56$. $H+W+C$ present = $3 \times 20 = 60$. $C = 60 - 56 = 4$)
 
 **Challenge:**
-16. **-₹3,000** ($Total_{20} = 12,00,000$. $Total_{18} = 10,53,000$. Sum of excluded = $1,47,000$. $1,50,000 + Intern = 1,47,000 \implies -3,000$. *Note: Intentional trick or flawed problem data!*)
+16. **-₹3,000** ($\text{Total}_{20} = 12,00,000$. $\text{Total}_{18} = 10,53,000$. Sum of excluded = $1,47,000$. $1,50,000 + \text{Intern} = 1,47,000 \implies -3,000$. *Note: Intentional trick or flawed problem data!*)
 17. **37.50** (New Sum = $1900 - (45+55) = 1800$. New Avg = $\frac{1800}{48} = 37.5$)
