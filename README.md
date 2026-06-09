@@ -6,6 +6,7 @@ Welcome to the Aptitude Preparation repository! This project contains study mate
 
 - [Percentages - Fundamentals](./percentages.md)
 - [Ratio & Proportion - Fundamentals](./Ratio%20&%20Proportion.md)
+- [Averages - Fundamentals](./Average.md)
 
 ## How to Use This Repository
 
