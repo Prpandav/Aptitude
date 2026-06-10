@@ -87,6 +87,7 @@ $$
 * **Step 2:** If the money triples, the final Amount (**$A$**) = **300**.
 * **Step 3:** Calculate the accumulated Simple Interest: **$\text{SI} = A - P = 300 - 100 = 200$**.
 * **Step 4:** Substitute into the SI formula with **$T = 8$**:
+
   $$
   200 = \frac{100 \times R \times 8}{100} \implies 200 = 8R
   $$

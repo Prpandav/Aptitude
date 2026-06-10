@@ -9,6 +9,7 @@ Welcome to the Aptitude Preparation repository! This project contains study mate
 - [Averages - Fundamentals](./Average.md)
 - [Profit &amp; Loss - Fundamentals](./Profit%20&%20Loss.md)
 - [Simple Interest - Fundamentals](./Simple%20Interest.md)
+- [Compound Interest - Fundamentals](./Compound%20Interest.md)
 
 ## How to Use This Repository
 

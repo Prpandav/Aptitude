@@ -1,8 +1,6 @@
-    
+# Percentages - Fundamentals
 
-# Topic Name: Percentages - Fundamentals
-
-## Formula
+## 1. Formulas
 
 **Basic Percentage:**
 

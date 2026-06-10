@@ -47,10 +47,12 @@
 * **Step 1:** Let the original numbers be **$3x$** and **$5x$**.
 * **Step 2:** Set up the equation based on the condition: **$\frac{3x - 9}{5x - 9} = \frac{12}{23}$**
 * **Step 3:** Cross-multiply: **$23(3x - 9) = 12(5x - 9)$**
+
   $$
   69x - 207 = 60x - 108
   $$
 * **Step 4:** Isolate **$x$**:
+
   $$
   9x = 99 \rightarrow x = 11
   $$
