@@ -8,6 +8,7 @@ Welcome to the Aptitude Preparation repository! This project contains study mate
 - [Ratio &amp; Proportion - Fundamentals](./Ratio%20&%20Proportion.md)
 - [Averages - Fundamentals](./Average.md)
 - [Profit &amp; Loss - Fundamentals](./Profit%20&%20Loss.md)
+- [Simple Interest - Fundamentals](./Simple%20Interest.md)
 
 ## How to Use This Repository
 
