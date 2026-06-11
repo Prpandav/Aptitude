@@ -10,6 +10,7 @@ Welcome to the Aptitude Preparation repository! This project contains study mate
 - [Profit &amp; Loss - Fundamentals](./Profit%20&%20Loss.md)
 - [Simple Interest - Fundamentals](./Simple%20Interest.md)
 - [Compound Interest - Fundamentals](./Compound%20Interest.md)
+- [Time & Work - Fundamentals](./07_Time%20&%20Work.md)
 
 ## How to Use This Repository
 
