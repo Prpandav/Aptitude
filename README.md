@@ -12,6 +12,7 @@ Welcome to the Aptitude Preparation repository! This project contains study mate
 - [Compound Interest - Fundamentals](./Compound%20Interest.md)
 - [Time & Work - Fundamentals](./07_Time%20&%20Work.md)
 - [Time, Speed & Distance - Fundamentals](./08_time_speed_distance.md)
+- [Mixtures & Alligations - Fundamentals](./09_Mixtures%20&%20Alligations.md)
 
 ## How to Use This Repository
 
