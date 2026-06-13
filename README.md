@@ -4,15 +4,16 @@ Welcome to the Aptitude Preparation repository! This project contains study mate
 
 ## Table of Contents
 
-- [Percentages - Fundamentals](./percentages.md)
-- [Ratio &amp; Proportion - Fundamentals](./Ratio%20&%20Proportion.md)
-- [Averages - Fundamentals](./Average.md)
-- [Profit &amp; Loss - Fundamentals](./Profit%20&%20Loss.md)
-- [Simple Interest - Fundamentals](./Simple%20Interest.md)
-- [Compound Interest - Fundamentals](./Compound%20Interest.md)
+- [Percentages - Fundamentals](./01_percentages.md)
+- [Ratio &amp; Proportion - Fundamentals](./02_Ratio%20&%20Proportion.md)
+- [Averages - Fundamentals](./03_Average.md)
+- [Profit &amp; Loss - Fundamentals](./04_Profit%20&%20Loss.md)
+- [Simple Interest - Fundamentals](./05_Simple%20Interest.md)
+- [Compound Interest - Fundamentals](./06_Compound%20Interest.md)
 - [Time & Work - Fundamentals](./07_Time%20&%20Work.md)
 - [Time, Speed & Distance - Fundamentals](./08_time_speed_distance.md)
 - [Mixtures & Alligations - Fundamentals](./09_Mixtures%20&%20Alligations.md)
+- [Probability - Fundamentals](./10_Probability.md)
 
 ## How to Use This Repository
 
