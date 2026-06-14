@@ -14,6 +14,7 @@ Welcome to the Aptitude Preparation repository! This project contains study mate
 - [Time, Speed & Distance - Fundamentals](./08_time_speed_distance.md)
 - [Mixtures & Alligations - Fundamentals](./09_Mixtures%20&%20Alligations.md)
 - [Probability - Fundamentals](./10_Probability.md)
+- [Permutations & Combinations - Fundamentals](./11_Permutations_Combinations.md)
 
 ## How to Use This Repository
 
