@@ -15,6 +15,7 @@ Welcome to the Aptitude Preparation repository! This project contains study mate
 - [Mixtures & Alligations - Fundamentals](./09_Mixtures%20&%20Alligations.md)
 - [Probability - Fundamentals](./10_Probability.md)
 - [Permutations & Combinations - Fundamentals](./11_Permutations_Combinations.md)
+- [Number Systems - Fundamentals](./12_Number_Systems.md)
 
 ## How to Use This Repository
 
