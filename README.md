@@ -2,6 +2,10 @@
 
 Welcome to the Aptitude Preparation repository! This project contains study materials, formulas, shortcuts, and practice questions to help you master various aptitude topics for placements, academic tests, and competitive exams.
 
+**Consistency over intensity.** One optimized push a day keeps the placement anxiety away.
+
+Every topic is mapped out linearly.
+
 ## Table of Contents
 
 - [Percentages - Fundamentals](./01_percentages.md)
@@ -16,6 +20,7 @@ Welcome to the Aptitude Preparation repository! This project contains study mate
 - [Probability - Fundamentals](./10_Probability.md)
 - [Permutations & Combinations - Fundamentals](./11_Permutations_Combinations.md)
 - [Number Systems - Fundamentals](./12_Number_Systems.md)
+- [Data Interpretation - Fundamentals](./13_Data_Interpretation.md)
 
 ## How to Use This Repository
 
