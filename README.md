@@ -21,6 +21,7 @@ Every topic is mapped out linearly.
 - [Permutations & Combinations - Fundamentals](./11_Permutations_Combinations.md)
 - [Number Systems - Fundamentals](./12_Number_Systems.md)
 - [Data Interpretation - Fundamentals](./13_Data_Interpretation.md)
+- [Number Series & Coding - Fundamentals](./14_Number_Series.md)
 
 ## How to Use This Repository
 
