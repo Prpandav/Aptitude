@@ -14,15 +14,16 @@ Every topic is mapped out linearly.
 - [Profit &amp; Loss - Fundamentals](./04_Profit%20&%20Loss.md)
 - [Simple Interest - Fundamentals](./05_Simple%20Interest.md)
 - [Compound Interest - Fundamentals](./06_Compound%20Interest.md)
-- [Time & Work - Fundamentals](./07_Time%20&%20Work.md)
-- [Time, Speed & Distance - Fundamentals](./08_time_speed_distance.md)
-- [Mixtures & Alligations - Fundamentals](./09_Mixtures%20&%20Alligations.md)
+- [Time &amp; Work - Fundamentals](./07_Time%20&%20Work.md)
+- [Time, Speed &amp; Distance - Fundamentals](./08_time_speed_distance.md)
+- [Mixtures &amp; Alligations - Fundamentals](./09_Mixtures%20&%20Alligations.md)
 - [Probability - Fundamentals](./10_Probability.md)
-- [Permutations & Combinations - Fundamentals](./11_Permutations_Combinations.md)
+- [Permutations &amp; Combinations - Fundamentals](./11_Permutations_Combinations.md)
 - [Number Systems - Fundamentals](./12_Number_Systems.md)
 - [Data Interpretation - Fundamentals](./13_Data_Interpretation.md)
-- [Number Series & Coding - Fundamentals](./14_Number_Series.md)
+- [Number Series &amp; Coding - Fundamentals](./14_Number_Series.md)
 - [Logical Reasoning - Fundamentals](./15_Logical_Reasoning.md)
+- [Seating Arrangement &amp; Puzzles - Fundamentals](./16_Seating_Arrangement_Puzzles.md)
 
 ## How to Use This Repository
 
