@@ -22,6 +22,7 @@ Every topic is mapped out linearly.
 - [Number Systems - Fundamentals](./12_Number_Systems.md)
 - [Data Interpretation - Fundamentals](./13_Data_Interpretation.md)
 - [Number Series & Coding - Fundamentals](./14_Number_Series.md)
+- [Logical Reasoning - Fundamentals](./15_Logical_Reasoning.md)
 
 ## How to Use This Repository
 
