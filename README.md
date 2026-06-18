@@ -24,6 +24,7 @@ Every topic is mapped out linearly.
 - [Number Series &amp; Coding - Fundamentals](./14_Number_Series.md)
 - [Logical Reasoning - Fundamentals](./15_Logical_Reasoning.md)
 - [Seating Arrangement &amp; Puzzles - Fundamentals](./16_Seating_Arrangement_Puzzles.md)
+- [Geometry & Mensuration - Fundamentals](./17_Geometry_Mensuration.md)
 
 ## How to Use This Repository
 
