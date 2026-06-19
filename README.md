@@ -25,6 +25,7 @@ Every topic is mapped out linearly.
 - [Logical Reasoning - Fundamentals](./15_Logical_Reasoning.md)
 - [Seating Arrangement &amp; Puzzles - Fundamentals](./16_Seating_Arrangement_Puzzles.md)
 - [Geometry & Mensuration - Fundamentals](./17_Geometry_Mensuration.md)
+- [Clocks & Calendars - Fundamentals](./18_Clocks_Calendars.md)
 
 ## How to Use This Repository
 
