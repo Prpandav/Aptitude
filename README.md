@@ -26,6 +26,7 @@ Every topic is mapped out linearly.
 - [Seating Arrangement &amp; Puzzles - Fundamentals](./16_Seating_Arrangement_Puzzles.md)
 - [Geometry & Mensuration - Fundamentals](./17_Geometry_Mensuration.md)
 - [Clocks & Calendars - Fundamentals](./18_Clocks_Calendars.md)
+- [Boats & Streams - Fundamentals](./19_Boats%20%26%20Streams.md)
 
 ## How to Use This Repository
 
