@@ -27,6 +27,7 @@ Every topic is mapped out linearly.
 - [Geometry & Mensuration - Fundamentals](./17_Geometry_Mensuration.md)
 - [Clocks & Calendars - Fundamentals](./18_Clocks_Calendars.md)
 - [Boats & Streams - Fundamentals](./19_Boats%20%26%20Streams.md)
+- [Pipes & Cisterns - Fundamentals](./20_Pipes%20&%20Cisterns.md)
 
 ## How to Use This Repository
 
