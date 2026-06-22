@@ -6,29 +6,36 @@ Welcome to the Aptitude Preparation repository! This project contains study mate
 
 Every topic is mapped out linearly.
 
-## Table of Contents
+## 📚 Table of Contents
 
-- [Percentages - Fundamentals](./01_percentages.md)
-- [Ratio &amp; Proportion - Fundamentals](./02_Ratio%20&%20Proportion.md)
-- [Averages - Fundamentals](./03_Average.md)
-- [Profit &amp; Loss - Fundamentals](./04_Profit%20&%20Loss.md)
-- [Simple Interest - Fundamentals](./05_Simple%20Interest.md)
-- [Compound Interest - Fundamentals](./06_Compound%20Interest.md)
-- [Time &amp; Work - Fundamentals](./07_Time%20&%20Work.md)
-- [Time, Speed &amp; Distance - Fundamentals](./08_time_speed_distance.md)
-- [Mixtures &amp; Alligations - Fundamentals](./09_Mixtures%20&%20Alligations.md)
-- [Probability - Fundamentals](./10_Probability.md)
-- [Permutations &amp; Combinations - Fundamentals](./11_Permutations_Combinations.md)
-- [Number Systems - Fundamentals](./12_Number_Systems.md)
-- [Data Interpretation - Fundamentals](./13_Data_Interpretation.md)
-- [Number Series &amp; Coding - Fundamentals](./14_Number_Series.md)
-- [Logical Reasoning - Fundamentals](./15_Logical_Reasoning.md)
-- [Seating Arrangement &amp; Puzzles - Fundamentals](./16_Seating_Arrangement_Puzzles.md)
-- [Geometry & Mensuration - Fundamentals](./17_Geometry_Mensuration.md)
-- [Clocks & Calendars - Fundamentals](./18_Clocks_Calendars.md)
-- [Boats & Streams - Fundamentals](./19_Boats%20%26%20Streams.md)
-- [Pipes & Cisterns - Fundamentals](./20_Pipes%20&%20Cisterns.md)
-- [Ages - Fundamentals](./21_Problems_on_Ages.md)
+<div align="center">
+
+|  #  | Topic                                                                                  | Tags                                        |
+| :-: | :------------------------------------------------------------------------------------- | :------------------------------------------ |
+|  01 | 📊 [Percentages - Fundamentals](./01_percentages.md)                                   | 🌱 Beginner Friendly · ⭐ Must Know          |
+|  02 | ⚖️ [Ratio & Proportion - Fundamentals](./02_Ratio%20&%20Proportion.md)                 | 🔥 Frequently Asked · ⭐ Must Know           |
+|  03 | 📈 [Averages - Fundamentals](./03_Average.md)                                          | ⚡ Quick Win · ⭐ Must Know                   |
+|  04 | 💰 [Profit & Loss - Fundamentals](./04_Profit%20&%20Loss.md)                           | 🔥 Frequently Asked · 🏆 Placement Favorite |
+|  05 | 🏦 [Simple Interest - Fundamentals](./05_Simple%20Interest.md)                         | 🌱 Beginner Friendly                        |
+|  06 | 💎 [Compound Interest - Fundamentals](./06_Compound%20Interest.md)                     | 🎯 Exam Favorite                            |
+|  07 | ⏳ [Time & Work - Fundamentals](./07_Time%20&%20Work.md)                                | 🔥 Frequently Asked · 🏆 Placement Favorite |
+|  08 | 🚗 [Time, Speed & Distance - Fundamentals](./08_time_speed_distance.md)                | 🔥 Frequently Asked · ⭐ Must Know           |
+|  09 | 🧪 [Mixtures & Alligations - Fundamentals](./09_Mixtures%20&%20Alligations.md)         | 🎯 Exam Favorite                            |
+|  10 | 🎲 [Probability - Fundamentals](./10_Probability.md)                                   | 🎯 Exam Favorite · 🚀 Advanced Topic        |
+|  11 | 🔀 [Permutations & Combinations - Fundamentals](./11_Permutations_Combinations.md)     | 🚀 Advanced Topic                           |
+|  12 | 🔢 [Number Systems - Fundamentals](./12_Number_Systems.md)                             | ⭐ Must Know · 💡 Concept Builder            |
+|  13 | 📉 [Data Interpretation - Fundamentals](./13_Data_Interpretation.md)                   | 🏆 Placement Favorite · 📈 High ROI         |
+|  14 | 🔍 [Number Series & Coding - Fundamentals](./14_Number_Series.md)                      | 🧩 Problem Solving                          |
+|  15 | 🧠 [Logical Reasoning - Fundamentals](./15_Logical_Reasoning.md)                       | 🏆 Placement Favorite · 🧩 Problem Solving  |
+|  16 | 🪑 [Seating Arrangement & Puzzles - Fundamentals](./16_Seating_Arrangement_Puzzles.md) | 🧩 Problem Solving · 🚀 Advanced Topic      |
+|  17 | 📐 [Geometry & Mensuration - Fundamentals](./17_Geometry_Mensuration.md)               | ⭐ Must Know                                 |
+|  18 | 🕒 [Clocks & Calendars - Fundamentals](./18_Clocks_Calendars.md)                       | ⚡ Quick Win                                 |
+|  19 | 🚤 [Boats & Streams - Fundamentals](./19_Boats%20&%20Streams.md)                       | 🎯 Exam Favorite                            |
+|  20 | 🚰 [Pipes & Cisterns - Fundamentals](./20_Pipes%20&%20Cisterns.md)                     | 🔥 Frequently Asked                         |
+|  21 | 👨‍👩‍👧 [Ages - Fundamentals](./21_Problems_on_Ages.md)                               | 🌱 Beginner Friendly · ⚡ Quick Win          |
+
+</div>
+
 ## How to Use This Repository
 
 Each topic is covered in its own Markdown file. Inside, you will generally find:
