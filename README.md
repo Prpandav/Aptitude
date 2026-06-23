@@ -12,6 +12,7 @@ Every topic is mapped out linearly.
 
 |  #  | Topic                                                                                  | Tags                                        |
 | :-: | :------------------------------------------------------------------------------------- | :------------------------------------------ |
+|  00 | 🧮 [Formulas](./00_formulas.md)                                           | Pre-Exam Revision          |
 |  01 | 📊 [Percentages - Fundamentals](./01_percentages.md)                                   | 🌱 Beginner Friendly · ⭐ Must Know          |
 |  02 | ⚖️ [Ratio & Proportion - Fundamentals](./02_Ratio%20&%20Proportion.md)                 | 🔥 Frequently Asked · ⭐ Must Know           |
 |  03 | 📈 [Averages - Fundamentals](./03_Average.md)                                          | ⚡ Quick Win · ⭐ Must Know                   |
