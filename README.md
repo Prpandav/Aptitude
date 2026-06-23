@@ -33,7 +33,7 @@ Every topic is mapped out linearly.
 |  19 | 🚤 [Boats & Streams - Fundamentals](./19_Boats%20&%20Streams.md)                       | 🎯 Exam Favorite                            |
 |  20 | 🚰 [Pipes & Cisterns - Fundamentals](./20_Pipes%20&%20Cisterns.md)                     | 🔥 Frequently Asked                         |
 |  21 | 👨‍👩‍👧 [Ages - Fundamentals](./21_Problems_on_Ages.md)                               | 🌱 Beginner Friendly · ⚡ Quick Win          |
-
+|  22 | 🔢 [HCF & LCM & Divisibility Rules - Fundamentals](./22_HCF_LCM_Divisibility_Rules.md)                     | ⭐ Must Know · 💡 Concept Builder            |
 </div>
 
 ## How to Use This Repository
