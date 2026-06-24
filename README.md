@@ -6,7 +6,7 @@ Welcome to the Aptitude Preparation repository! This project contains study mate
 
 Every topic is mapped out linearly.
 
-## 📚 Table of Contents
+## Table of Contents
 
 <div align="center">
 
@@ -15,7 +15,7 @@ Every topic is mapped out linearly.
 |  00 | 🧮 [Formulas](./00_formulas.md)                                           | Pre-Exam Revision          |
 |  01 | 📊 [Percentages - Fundamentals](./01_percentages.md)                                   | 🌱 Beginner Friendly · ⭐ Must Know          |
 |  02 | ⚖️ [Ratio & Proportion - Fundamentals](./02_Ratio%20&%20Proportion.md)                 | 🔥 Frequently Asked · ⭐ Must Know           |
-|  03 | 📈 [Averages - Fundamentals](./03_Average.md)                                          | ⚡ Quick Win · ⭐ Must Know                   |
+|  03 | 📈 [Averages - Fundamentals](./03_Average.md)                                          | ⚡ Quick Win · ⭐ Must Know                  |
 |  04 | 💰 [Profit & Loss - Fundamentals](./04_Profit%20&%20Loss.md)                           | 🔥 Frequently Asked · 🏆 Placement Favorite |
 |  05 | 🏦 [Simple Interest - Fundamentals](./05_Simple%20Interest.md)                         | 🌱 Beginner Friendly                        |
 |  06 | 💎 [Compound Interest - Fundamentals](./06_Compound%20Interest.md)                     | 🎯 Exam Favorite                            |
@@ -52,3 +52,17 @@ Each topic is covered in its own Markdown file. Inside, you will generally find:
 Grab a notebook, read through the concepts, and try to solve the practice problems before checking the solutions!
 
 Happy studying!
+
+---
+
+### The Engineering Architecture (`/scripts`)
+* **`question_bank.py` (The Database):** A massive static data store (NoSQL-style dictionary) containing placement-level questions mapped by topic and difficulty level.
+* **`mock_generator.py` (The Compiler):** A Python script that shuffles the active database, pulls a randomized subset of questions across different topics, and compiles a fresh Markdown exam.
+
+### How to Execute a Mock Simulation
+
+To test your speed and accuracy, run the Python automation script from your terminal:
+
+```bash
+# Execute the mock generation engine
+python scripts/mock_generator.py
