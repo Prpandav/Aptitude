@@ -1,36 +1,63 @@
 'use client';
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Clock, CheckCircle2, XCircle, ChevronRight, ChevronLeft, RefreshCcw, Flag, AlertCircle } from 'lucide-react';
 
+// -------------------------------------------------------------
+// TYPESCRIPT BLUEPRINTS (Interfaces)
+// -------------------------------------------------------------
+interface Question {
+  id: string;
+  topic: string;
+  question: string;
+  options: string[];
+  trueAnswer: string;
+  hint: string;
+}
+
 export default function MockTestDashboard() {
-  const [questions, setQuestions] = useState([]);
-  const [currentIndex, setCurrentIndex] = useState(0);
-  const [userAnswers, setUserAnswers] = useState({});
-  const [markedForReview, setMarkedForReview] = useState({});
-  const [testState, setTestState] = useState('START'); 
-  const [score, setScore] = useState(0);
-  const [timeLeft, setTimeLeft] = useState(900); 
+  // --- ADDED TYPES TO STATE ---
+  const [questions, setQuestions] = useState<Question[]>([]);
+  const [currentIndex, setCurrentIndex] = useState<number>(0);
+  const [userAnswers, setUserAnswers] = useState<Record<number, string>>({});
+  const [markedForReview, setMarkedForReview] = useState<Record<number, boolean>>({});
+  const [testState, setTestState] = useState<'START' | 'ACTIVE' | 'COMPLETED'>('START'); 
+  const [score, setScore] = useState<number>(0);
+  const [timeLeft, setTimeLeft] = useState<number>(900); 
+
+  // --- FIXED HOISTING: Wrapped in useCallback and moved above useEffect ---
+  const submitTest = useCallback(() => {
+    if (testState !== 'ACTIVE') return;
+    let calculatedScore = 0;
+    questions.forEach((q, index) => {
+      if (userAnswers[index] === q.trueAnswer) calculatedScore += 1;
+    });
+    setScore(calculatedScore);
+    setTestState('COMPLETED');
+  }, [testState, questions, userAnswers]);
 
   useEffect(() => {
-    let timer;
+    let timer: NodeJS.Timeout; 
     if (testState === 'ACTIVE' && timeLeft > 0) {
       timer = setInterval(() => setTimeLeft((prev) => prev - 1), 1000);
     } else if (timeLeft === 0 && testState === 'ACTIVE') {
-      submitTest();
+      // Push state update to the next event loop tick to prevent cascading renders
+      setTimeout(() => {
+        submitTest();
+      }, 0);
     }
     return () => clearInterval(timer);
-  }, [testState, timeLeft]);
+  }, [testState, timeLeft, submitTest]);
 
   const startTest = async () => {
     setTestState('ACTIVE');
     setTimeLeft(900);
     const res = await fetch('/api/generate');
-    const data = await res.json();
+    const data: Question[] = await res.json();
     setQuestions(data);
   };
 
-  const handleOptionSelect = (option) => {
+  const handleOptionSelect = (option: string) => {
     setUserAnswers({ ...userAnswers, [currentIndex]: option });
   };
 
@@ -47,17 +74,7 @@ export default function MockTestDashboard() {
     }));
   };
 
-  const submitTest = () => {
-    if (testState !== 'ACTIVE') return;
-    let calculatedScore = 0;
-    questions.forEach((q, index) => {
-      if (userAnswers[index] === q.trueAnswer) calculatedScore += 1;
-    });
-    setScore(calculatedScore);
-    setTestState('COMPLETED');
-  };
-
-  const formatTime = (seconds) => {
+  const formatTime = (seconds: number) => {
     const m = Math.floor(seconds / 60).toString().padStart(2, '0');
     const s = (seconds % 60).toString().padStart(2, '0');
     return `${m}:${s}`;
@@ -226,7 +243,7 @@ export default function MockTestDashboard() {
                 </p>
 
                 <div className="space-y-3">
-                  {currentQ?.options?.map((option, i) => {
+                  {currentQ?.options?.map((option: string, i: number) => {
                     const isSelected = userAnswers[currentIndex] === option;
                     return (
                       <button
@@ -303,7 +320,7 @@ export default function MockTestDashboard() {
           <p className="text-xs font-bold text-slate-500 mb-4 uppercase tracking-widest">Question Palette</p>
           
           <div className="grid grid-cols-4 gap-3 mb-8">
-            {questions.map((_, idx) => {
+            {questions.map((_, idx: number) => {
               const isAnswered = !!userAnswers[idx];
               const isCurrent = currentIndex === idx;
               const isMarked = markedForReview[idx];
