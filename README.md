@@ -60,13 +60,4 @@ Happy studying!
 ### The Engineering Architecture (`/scripts`)
 
 * **`question_bank.py` (The Database):** A massive static data store (NoSQL-style dictionary) containing placement-level questions mapped by topic and difficulty level.
-* **`mock_generator.py` (The Compiler):** A Python script that shuffles the active database, pulls a randomized subset of questions across different topics, and compiles a fresh Markdown exam.
-
-### How to Execute a Mock Simulation
-
-To test your speed and accuracy, run the Python automation script from your terminal:
-
-```bash
-# Execute the mock generation engine
-python scripts/mock_generator.py
-```
+* **`mock_generator.py` (The Compiler):** A Python script that shuffles the active database, pulls a randomized subset of questions across different topics, and compiles a fresh Markdown exam 
