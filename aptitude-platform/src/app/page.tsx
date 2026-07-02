@@ -2,6 +2,7 @@
 
 import { useState, useEffect, useCallback, useMemo } from 'react';
 import { motion, AnimatePresence, type Transition } from 'framer-motion';
+import Footer from './../components/footer';
 import {
   Clock,
   CheckCircle2,
@@ -213,6 +214,7 @@ export default function MockTestDashboard() {
             )}
           </motion.button>
         </motion.div>
+        <Footer />
       </div>
     );
   }
