@@ -1,63 +1,111 @@
-# Aptitude Mastery & Placement Simulation Engine
+# Aptitude Mastery
 
-Welcome to the ultimate placement preparation repository! This project is a dual-purpose ecosystem: it contains **comprehensive theoretical study materials** for mastering quantitative aptitude, and **CrackTheTape**, an enterprise-grade web application engineered to simulate real-world IT placement environments (e.g., TCS iON, AMCAT).
+A placement-preparation workspace combining structured aptitude notes, technical interview handbooks, randomized mock-test tools, and a timed web assessment platform.
 
-**Consistency over intensity.** One optimized push a day keeps the placement anxiety away.
+> Consistency over intensity.
 
----
+## What's Inside
 
-### Architecture: The 10-Bucket NLP Engine (Backend)
+| Area | Description |
+|---|---|
+| [Aptitude Topics](Topics/) | Formulas, concepts, shortcuts, solved examples, and practice problems |
+| [Technical Core](technical_core/) | Technical interview notes from beginner to advanced level |
+| [CrackTheTape](aptitude-platform/) | Timed placement-assessment web application |
+| [Scripts](scripts/) | Python question bank and Markdown mock-test generator |
 
-The core innovation is the `route.js` API. It utilizes a **Waterfall NLP Parsing Pipeline** to analyze the correct answer using Regex and dynamically generate deceptive options on the fly.
+## Technical Core
 
-* **Math Variance Engine:** Isolates numbers from suffixes/prefixes (e.g., `15 km/hr`, `25%`) and mathematically scales realistic alternative options.
-* **Semantic Dictionaries:** Recognizes categorical data (Directions, Blood Relations) and pulls contextually accurate distractors.
-* **Logical Matrices:** Automatically formats standardized answers for Syllogisms and Data Sufficiency.
-* **Fraction & Ratio Mutators:** Intelligently flips, shifts, and alters ratios and fractions.
+### [Object-Oriented Programming Master Notes](technical_core/01_oops_concepts.md)
 
-### Proctor-Style Dashboard (Frontend)
+A complete OOP interview handbook covering:
 
-* **Enterprise Light Theme:** A high-contrast, distraction-free UI mimicking corporate testing software.
-* **Real-time State Management:** Track attempted, unattempted, and "Marked for Review" questions.
-* **Execution Analytics:** Auto-grades upon submission with detailed reports and engine logic formulas.
-* **Fluid Micro-interactions:** Powered by Framer Motion for tactile feedback.
+- Classes, objects, and the four OOP pillars
+- Constructors, access modifiers, overloading, and overriding
+- Interfaces, abstract classes, and object relationships
+- SOLID principles and common design patterns
+- Java, C++, Python, C#, JavaScript, and TypeScript notes
+- Interview questions, MCQs, coding exercises, and revision sheets
 
-### Booting the Web Engine
+## Aptitude Coverage
+
+The topic library includes quantitative aptitude, logical reasoning, and placement-focused problem solving:
+
+- Percentages, averages, ratios, profit and loss
+- Simple and compound interest
+- Time and work, pipes and cisterns
+- Time, speed and distance, boats and streams
+- Probability, permutations, combinations, and number systems
+- Geometry, mensuration, clocks, calendars, and ages
+- Data interpretation, series, seating arrangements, and logical reasoning
+- HCF, LCM, and divisibility rules
+
+Start with the [formula sheet](Topics/00_formulas.md) or browse the complete [Topics](Topics/) directory.
+
+## CrackTheTape
+
+The web application provides a focused placement-test experience with:
+
+- Randomized 15-question assessments
+- A 15-minute countdown timer
+- Answer tracking and question navigation
+- Mark-for-review support
+- Automatic scoring and answer explanations
+- Dynamically generated multiple-choice distractors
+
+### Tech Stack
+
+- Next.js and React
+- TypeScript and JavaScript
+- Tailwind CSS
+- Framer Motion
+- Lucide React
+
+### Run Locally
 
 ```bash
-# Navigate to the platform directory
 cd aptitude-platform
-
-# Install dependencies
 npm install
-
-# Initialize the local server
 npm run dev
 ```
 
-## Table of Contents
+Open `http://localhost:3000` in your browser.
 
-<div align="center">
+Useful commands:
 
-## How to Use This Repository
+```bash
+npm run lint
+npm run build
+npm start
+```
 
-Each topic is covered in its own Markdown file. Inside, you will generally find:
+## Generate a Markdown Mock Test
 
-1. **Formulas:** Core mathematical formulas needed.
-2. **Key Concepts:** Basic intuition, rules, and real-world analogies.
-3. **Shortcuts:** Mental math tricks and speed-building techniques.
-4. **Common Mistakes:** Pitfalls, traps, and calculation errors to avoid.
-5. **Solved Examples:** Step-by-step solutions categorized by difficulty.
-6. **Practice Set:** A categorized set of questions for you to test your knowledge.
-7. **Answers & Hints:** Quick keys to verify your practice work.
+The Python generator selects randomized questions from the static question bank and creates a Markdown test with a hidden answer section.
 
-Grab a notebook, read through the concepts, and try to solve the practice problems before checking the solutions!
+```bash
+cd scripts
+python mock_generator.py
+```
 
-Happy studying!
+## Repository Structure
+
+```text
+Aptitude/
+├── Topics/                 # Aptitude study material
+├── technical_core/         # Technical interview handbooks
+├── scripts/                # Question bank and mock generator
+├── aptitude-platform/      # Next.js assessment application
+└── README.md
+```
+
+## Suggested Learning Flow
+
+1. Review the formula sheet and one topic guide.
+2. Solve the examples without reading the solutions first.
+3. Generate a Markdown mock test or start a web assessment.
+4. Review mistakes and revise weak concepts.
+5. Use the technical handbooks for interview preparation.
 
 ---
 
-### The Engineering Architecture (`/scripts`)
-
-* **`question_bank.py` (The Database):** A massive static data store (NoSQL-style dictionary) containing placement-level questions mapped by topic and difficulty level.
-* **`mock_generator.py` (The Compiler):** A Python script that shuffles the active database, pulls a randomized subset of questions across different topics, and compiles a fresh Markdown exam 
+Built for consistent placement preparation and interview revision.
