@@ -26,6 +26,10 @@ A complete OOP interview handbook covering:
 - Java, C++, Python, C#, JavaScript, and TypeScript notes
 - Interview questions, MCQs, coding exercises, and revision sheets
 
+### [Database Management Systems Master Notes](technical_core/02_dbms_concepts.md)
+
+A complete DBMS handbook covering relational design, SQL, normalization, transactions, concurrency, indexing, recovery, distributed databases, interview questions, MCQs, and coding exercises.
+
 ## Aptitude Coverage
 
 The topic library includes quantitative aptitude, logical reasoning, and placement-focused problem solving:
