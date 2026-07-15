@@ -30,6 +30,10 @@ A complete OOP interview handbook covering:
 
 A complete DBMS handbook covering relational design, SQL, normalization, transactions, concurrency, indexing, recovery, distributed databases, interview questions, MCQs, and coding exercises.
 
+### [Operating Systems Master Notes](technical_core/03_operating_systems.md)
+
+A complete OS handbook covering processes, threads, scheduling, synchronization, deadlocks, memory, file systems, I/O, security, virtualization, Linux, interview questions, MCQs, and algorithm exercises.
+
 ## Aptitude Coverage
 
 The topic library includes quantitative aptitude, logical reasoning, and placement-focused problem solving:
