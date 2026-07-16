@@ -17,14 +17,7 @@ A placement-preparation workspace combining structured aptitude notes, technical
 
 ### [Object-Oriented Programming Master Notes](technical_core/01_oops_concepts.md)
 
-A complete OOP interview handbook covering:
-
-- Classes, objects, and the four OOP pillars
-- Constructors, access modifiers, overloading, and overriding
-- Interfaces, abstract classes, and object relationships
-- SOLID principles and common design patterns
-- Java, C++, Python, C#, JavaScript, and TypeScript notes
-- Interview questions, MCQs, coding exercises, and revision sheets
+A complete OOP handbook covering classes, objects, inheritance, polymorphism, abstraction, encapsulation, design patterns, interview questions, MCQs, and coding exercises.
 
 ### [Database Management Systems Master Notes](technical_core/02_dbms_concepts.md)
 
@@ -33,6 +26,10 @@ A complete DBMS handbook covering relational design, SQL, normalization, transac
 ### [Operating Systems Master Notes](technical_core/03_operating_systems.md)
 
 A complete OS handbook covering processes, threads, scheduling, synchronization, deadlocks, memory, file systems, I/O, security, virtualization, Linux, interview questions, MCQs, and algorithm exercises.
+
+### [Computer Networks Master Notes](technical_core/04_computer_networks.md)
+
+Simple interview notes covering network models, devices, IPv4/IPv6, subnetting, routing, TCP/UDP, application protocols, wireless, security, troubleshooting, MCQs, and practical problems.
 
 ## Aptitude Coverage
 
