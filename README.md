@@ -31,6 +31,10 @@ A complete OS handbook covering processes, threads, scheduling, synchronization,
 
 Simple interview notes covering network models, devices, IPv4/IPv6, subnetting, routing, TCP/UDP, application protocols, wireless, security, troubleshooting, MCQs, and practical problems.
 
+### [Data Structures and Algorithms Master Notes](technical_core/05_data_structures_algorithms.md)
+
+Simple DSA notes covering complexity, core data structures, searching, sorting, graphs, coding patterns, greedy methods, dynamic programming, interview questions, MCQs, and coding problems.
+
 ## Aptitude Coverage
 
 The topic library includes quantitative aptitude, logical reasoning, and placement-focused problem solving:
