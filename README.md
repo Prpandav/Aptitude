@@ -35,6 +35,10 @@ Simple interview notes covering network models, devices, IPv4/IPv6, subnetting, 
 
 Simple DSA notes covering complexity, core data structures, searching, sorting, graphs, coding patterns, greedy methods, dynamic programming, interview questions, MCQs, and coding problems.
 
+### [Software Engineering and SDLC Master Notes](technical_core/06_software_engineering_sdlc.md)
+
+Simple notes covering SDLC models, requirements, Agile, Scrum, design, testing, Git, CI/CD, project planning, risk, maintenance, security, interview questions, MCQs, and practical cases.
+
 ## Aptitude Coverage
 
 The topic library includes quantitative aptitude, logical reasoning, and placement-focused problem solving:
