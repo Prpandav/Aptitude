@@ -39,6 +39,10 @@ Simple DSA notes covering complexity, core data structures, searching, sorting, 
 
 Simple notes covering SDLC models, requirements, Agile, Scrum, design, testing, Git, CI/CD, project planning, risk, maintenance, security, interview questions, MCQs, and practical cases.
 
+### [System Design Fundamentals Master Notes](technical_core/07_system_design_fundamentals.md)
+
+Simple notes covering requirements, capacity estimates, APIs, caching, databases, scaling, messaging, reliability, security, observability, interview questions, MCQs, and practical system designs.
+
 ## Aptitude Coverage
 
 The topic library includes quantitative aptitude, logical reasoning, and placement-focused problem solving:
