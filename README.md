@@ -43,6 +43,10 @@ Simple notes covering SDLC models, requirements, Agile, Scrum, design, testing, 
 
 Simple notes covering requirements, capacity estimates, APIs, caching, databases, scaling, messaging, reliability, security, observability, interview questions, MCQs, and practical system designs.
 
+### [Git and Version Control Master Notes](technical_core/08_git_version_control.md)
+
+Simple notes covering Git basics, commits, branches, merging, rebasing, remotes, recovery, teamwork, interview questions, MCQs, and practical exercises.
+
 ## Aptitude Coverage
 
 The topic library includes quantitative aptitude, logical reasoning, and placement-focused problem solving:
