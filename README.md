@@ -47,6 +47,10 @@ Simple notes covering requirements, capacity estimates, APIs, caching, databases
 
 Simple notes covering Git basics, commits, branches, merging, rebasing, remotes, recovery, teamwork, interview questions, MCQs, and practical exercises.
 
+### [Cybersecurity Fundamentals Master Notes](technical_core/09_cybersecurity_fundamentals.md)
+
+Simple notes covering security goals, threats, identity, cryptography, network and web security, secure development, incident response, interview questions, MCQs, and exercises.
+
 ## Aptitude Coverage
 
 The topic library includes quantitative aptitude, logical reasoning, and placement-focused problem solving:
